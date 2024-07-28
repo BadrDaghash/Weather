@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1e202b;
+
+}
+
+.menu-items {
+    padding: 2px 25px !important;
+    border: 2px solid transparent !important;
+    border-radius: 30px !important;
+    color: white;
+    -webkit-transition: 0.3s ease !important;
+    transition: 0.3s ease !important;
+    font-weight: 400 !important;
+}
+
+.menu-items:hover {
+    content: '';
+    color: #009ad8 !important;
+    border-radius: 30px !important;
+    border-color: #009ad8 !important;
+}
+
+section {
+    background-image: url(../pics/banner.png);
+    background-repeat: none;
+    background-size: cover;
+    z-index: 99;
+}
+
+input {
+
+    border-radius: 30px !important;
+    ;
+}
+
+.btn-search {
+    position: absolute;
+    top: 51px;
+    right: 4px;
+    width: 10%;
+    border-radius: 30px;
+    background-color: #009ad8;
+    color: white;
+}
+
+
+.degree {
+    font-size: 90px;
+
+}
+
+span {
+    position: relative;
+    top: -2rem;
+}
+.small-span{
+    position: relative;
+    top: -0.5rem;
+}
+.btn-subscribe {
+    position: absolute;
+    top: 0px;
+    right: 0;
+
+    width: 9%;
+    border-radius: 30px;
+    background-color: #009ad8;
+    color: white;
+}
+
+input {
+    border: none !important;
+    background-color: #1e202b !important;
+    color: white !important;
+    font-size: 16px !important;
+}
+
+::placeholder {
+    color: #7b7d88 !important;
+    font-size: 14px;
+}
+.btn-subscribe {
+    position: absolute;
+    top: 51px;
+    right: 18px;
+    width: 15%;
+    border-radius: 30px;
+    background-color: #009ad8;
+    color: white;
+}
+
+.footer-icon {
+    background-color: #1e202b;
+    padding: 22px 15px;
+}
+
+i {
+    color: #009ad8;
+}
+
+.footer-icon:hover {
+    content: '';
+    background-color: #009ad8;
+    color: white;
+}
+.inner img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .inner {
+        padding: 1rem;
+    }
+
+    .inner h5 {
+        font-size: 1.2rem;
+    }
+
+    .inner .degree .num {
+        font-size: 1.5rem;
+    }
+
+    .icons p {
+        font-size: 0.8rem;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+}

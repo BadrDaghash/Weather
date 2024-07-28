@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header style="padding: 30px;">
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid ">
+                <a class="navbar-brand ps-4 d-flex " href="#">
+                    <img src="../Weather/pics/logo.png" class="w-100" alt="Logo">
+                    <div class="d-flex flex-column ms-2 ">
+                        <h1 class="h5   text-white">Weather</h1>
+                        <small style="font-size: 10px;color: #bfc1c8;">tagline goes here</small>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end pe-4  " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ps-5 gy-3  ">
+                        <a class="nav-link menu-items active text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link menu-items text-white" href="#">News</a>
+                        <a class="nav-link menu-items text-white" href="#">Live cameras</a>
+                        <a class="nav-link menu-items text-white" href="#">Photos</a>
+                        <a class="nav-link menu-items text-white" href="# ">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- section 1 -->
+    <section style="height: 40vh; ">
+        <div class="container pt-5 my-5 ">
+            <form class="d-flex position-relative pt-5 ">
+                <input class="form-control form-control-lg w-100 mx-auto" type="text" id="searchBar"
+                    placeholder="Find your location..." aria-label=".form-control-lg example">
+                <input type="button" value="find" id="submit" class="btn-search form-control "
+                    style=" background-color: #009ad8 !important;">
+            </form>
+        </div>
+    </section>
+    <!-- section2-->
+    <div>
+        <div class="container mx-auto ">
+            <div class="row gx-0 ">
+                <!--First Day -->
+                <div class="inner col-md-4 col-sm-12" style="background-color: #262936; " id="myRow">
+
+                    
+                </div>
+                <!--Second Day -->
+                <div class="inner col-md-4 col-sm-12" style="background-color: #1e202b" id="myRowPlus">
+
+                </div>
+                <!--Third Day -->
+                <div class="inner col-md-4 col-sm-12" style="background-color: #262936; " id="myRowNext">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer style="background-color:#292636" class="pb-5">
+        <div class="container mt-5">
+            <div class="row mt-5">
+                <div class="inner col-md-8 col-sm-12 pt-5 position-relative">
+                    <input class="form-control form-control-lg" type="text"
+                        placeholder="Enter your email to subscribe..." aria-label=".form-control-lg example">
+                    <input type="button" value="Subscribe" id="submit" class="btn-subscribe form-control bg-danger"
+                        style=" background-color: #009ad8 !important;">
+                </div>
+                <div class="inner col-md-4 col-sm-12 pt-5">
+                    <div class="footer-icons  ps-5">
+                        <i class="fa-brands fa-facebook-f fa-lg footer-icon rounded-circle"></i>
+                        <i class="fa-brands fa-twitter fa-lg footer-icon rounded-circle"></i>
+                        <i class="fa-brands fa-google-plus-g fa-lg footer-icon  rounded-circle"></i>
+                        <i class="fa-brands fa-pinterest fa-lg footer-icon  rounded-circle"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="pt-4" style="color:#bfc1c8">Copyright 2014 Company name. Designed by Themezy. All rights reserved
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="JAVASCRIPT/bootstrap.bundle.min.js"></script>
+    <script src="JAVASCRIPT/index.js"></script>
+</body>
+
+</html>
